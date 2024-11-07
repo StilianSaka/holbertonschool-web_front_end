@@ -272,11 +272,12 @@ html {
 }
 
 body {
-    color: var(--text-color);
+    color: var(--text-color, #090909);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
+    margin: 0;
 }
 
 h1,
